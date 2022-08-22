@@ -41,7 +41,7 @@ $ pytest -v src/test_02_selenium_action.py
 ### Fixture (pytest)
 Общие `fixture` в файле `src/conftest.py` (имя зарезервировано `pytest`)
 
-- `config` - конфигурация тестов
+- `config` - конфигурация тестов (общие переменные)
 - `docker_container` - запуск / остановка контейнера с `Gitea` 
 - `chrome_worker` - управление `ChromeBrowser` на базе `Selenium`  
 
