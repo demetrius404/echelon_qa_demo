@@ -35,9 +35,17 @@ $ pytest -v src/test_02_selenium_action.py
 
 ### Наборы тестов
 - `src/test_00_docker.py` - тесты запуска `Docker` контейнера `Gitea`
-- `src/test_01_page_xpath.py` - тестирование и поиск элементов с помощью `xpath` на странице
-- `src/test_02_selenium_action.py` - целевые действия в `Gitea` и их проверка
+- `src/test_01_page_xpath.py` - тестирование и поиск элементов с помощью `XPath` на странице
+- `src/test_02_selenium_action.py` - целевые действия в `Gitea` и их проверка с помощью `Selenium`
 
+### Fixture (pytest)
+Общие `fixture` в файле `src/conftest.py` (имя зарезервировано `pytest`)
+
+- `config` - конфигурация тестов
+- `docker_container` - запуск / остановка контейнера с `Gitea` 
+- `chrome_worker` - управление `ChromeBrowser` на базе `Selenium`  
+
+### Запуск тестов
 ```text
 $ pytest
 === test session starts ===
