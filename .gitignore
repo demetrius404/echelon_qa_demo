@@ -1,0 +1,5 @@
+.idea/*
+venv/*
+src/bin/*.bin
+.pytest_cache/*
+src/.pytest_cache/*

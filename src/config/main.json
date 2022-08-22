@@ -1,0 +1,16 @@
+{
+  "docker_container": "gitea",
+  "docker_image": "gitea/gitea:1.16.9",
+  "gitea_base_url": "http://127.0.0.1:8080",
+  "time_wait_container_start": 20,
+  "time_wait_container_after_start": 10,
+  "selenium_bin_path": "src/bin/chromedriver_v104.bin",
+  "test_case": {
+        "user_name": "gitea",
+        "email": "gitea@local",
+        "password": "QXpMvkPFmS",
+        "repo_name": "test",
+        "upload_dir": null,
+        "upload_file": "TECH.md"
+    }
+}
