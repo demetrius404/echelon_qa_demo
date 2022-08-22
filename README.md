@@ -33,10 +33,10 @@ $ pytest -v src/test_02_selenium_action.py
 0100100101101100000100100
 ```
 
-### Наборы тестов:
-- `src/test_00_docker.py` - тесты запуска docker контейнера gitea
-- `src/test_01_page_xpath.py` - тестирование и поиск элементов с помощью xpath
-- `src/test_02_selenium_action.py` - целевые действия в gitea и их проверка
+### Наборы тестов
+- `src/test_00_docker.py` - тесты запуска `Docker` контейнера `Gitea`
+- `src/test_01_page_xpath.py` - тестирование и поиск элементов с помощью `xpath` на странице
+- `src/test_02_selenium_action.py` - целевые действия в `Gitea` и их проверка
 
 ```text
 $ pytest
