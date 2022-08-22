@@ -1,6 +1,6 @@
 ## Тестовое задание (QA Engineer) в компанию [АО "НПО Эшелон"](https://npo-echelon.ru)
 
-Исходное техническое задание в [файле](./TECH.md)   
+Исходное тестовое задание в [файле](./TECH.md)   
 Предварительно необходимо [скачать](https://chromedriver.chromium.org/downloads) WebDriver для Chrome
 - [Файл](src/config/main.json) конфигурации
 - Директория для драйвера `src/bin`
