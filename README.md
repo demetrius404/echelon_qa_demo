@@ -92,12 +92,10 @@ src/test_02_selenium_action.py::test_0204_gitea_content_compare       PASSED    
 
 ### Запуск временного контейнера
 ```text
-```text
 docker run \
 --rm \
 --name gitea \
 --publish 8080:3000 \
 gitea/gitea:1.16.9
-```
 ```
 
