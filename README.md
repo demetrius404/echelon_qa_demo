@@ -6,7 +6,7 @@
 - Директория для драйвера `src/bin`
 
 ```text
-$ git clone <REPO_URL> -- <LOCAL_DIR>
+$ git clone <REPO_URL>
 $ cd ./<LOCAL_DIR>
 
 $ python3 -m venv venv
